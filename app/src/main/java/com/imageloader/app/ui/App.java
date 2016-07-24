@@ -22,8 +22,8 @@ public class App extends Application {
 
     private void initImageLoader() {
         ImageLoaderConfig config = new ImageLoaderConfig()
-                .setLoadingPlaceholder(R.drawable.loading)
-                .setNotFoundPlaceholder(R.drawable.not_found)
+                .setLoadingPlaceholder(R.drawable.ic_loading)
+                .setNotFoundPlaceholder(R.drawable.ic_not_found)
                 .setCache(new DoubleCache(this))
                 .setThreadCount(4)
                 .setLoadPolicy(new ReversePolicy());

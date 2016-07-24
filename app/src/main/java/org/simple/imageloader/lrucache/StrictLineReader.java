@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.simple.imageloader.disklrucache;
+package org.simple.imageloader.lrucache;
 
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;

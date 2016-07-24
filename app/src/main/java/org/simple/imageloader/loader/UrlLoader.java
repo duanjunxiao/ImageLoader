@@ -29,7 +29,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.BitmapFactory.Options;
 
 
-import org.simple.imageloader.disklrucache.IOUtil;
+import org.simple.imageloader.lrucache.IOUtil;
 import org.simple.imageloader.request.BitmapRequest;
 import org.simple.imageloader.utils.BitmapDecoder;
 
